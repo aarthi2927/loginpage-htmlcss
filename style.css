@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+text-decoration: none;
+ background-image: url('https://static.vecteezy.com/system/resources/thumbnails/024/659/684/small/night-sky-background-with-moon-and-blue-sky-nature-background-generated-in-ai-photo.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+object-fit: contain;
+background-color: rgba(0, 0, 0,0.5);
+}
+body{
+    color: white;
+   }
+  .form{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 2%;
+    width: 25%;
+    padding: 55px;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 15%;
+   }
+   header{
+    padding: 5%;
+   }
+   .formdata{
+    display: flex;
+    flex-wrap: wrap;
+padding: 25px;   
+}
+.formdata label{
+    font-size: large;
+font-weight: 400;
+padding: 3%;
+margin: 5px;
+}
+.formdata input{
+    font-size: large;
+font-weight: 400;
+padding: 2%;
+border-radius: 5px;
+border-top-right-radius: 1px soild white;
+margin: 5px;
+}
+button{
+border-color: rgb(3, 33, 64);
+     color:black;
+     text-align: center;
+     padding: 5px;
+     width: 50%;
+     border-radius: 5px;
+justify-content: center;
+margin-left: 15%;
+
+}
+a{
+   color:aliceblue; 
+}
